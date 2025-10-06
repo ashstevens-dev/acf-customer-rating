@@ -1,0 +1,23 @@
+{
+  "name": "acf/acf-customer-rating",
+  "title": "Customer Rating",
+  "description": "Highlight a particular stellar review from a customer to draw interest to a service/product/offering and inspire a conversion. Pulls in data from ACF.",
+  "category": "formatting",
+  "icon": "feedback",
+  "keywords": [ "custom", "acf", "rating", "review", "testimonial" ],
+  "style": [ "file:./style.css" ],
+  "supports": {
+    "align": true,
+    "className": true,
+    "renaming": false,
+    "spacing": {
+      "margin": true,
+      "padding": true,
+      "blockGap": true
+    }
+  },
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "blocks/acf-customer-rating/template.php"
+  }
+}
